@@ -6,13 +6,13 @@
   font-family: "Inter", sans-serif;
 }
 .head {
-  height: 70vh;
+  height: 87vh;
   width: 100%;
   background-repeat: no-repeat;
-  background-image: url(donate-today-main/images/donation9.jpg);
+  background-image: url(donate-today-main/images/donation3.jpg);
   background-blend-mode: multiply;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: top;
 }
 .title-caption {
@@ -21,7 +21,7 @@
   font-weight: 700;
   text-align: center;
   line-height: 79px;
-  padding-top: 100px;
+  padding-top: 250px;
   padding-bottom: 20px;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
@@ -47,7 +47,7 @@
   display: inline-block;
   font-size: 22px;
   margin-bottom: 100px;
-  margin-left: 50%;
+  margin-left: 45%;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -57,7 +57,12 @@
 
   /*Donate started*/
 }
+main{
+  width: 70%;
+  margin: 0 auto 100px;
+}
 #donate {
+
   padding-top: 130px;
   text-align: center;
 }
@@ -81,6 +86,7 @@
 .amount-container {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 .container {
   width: 20%;
@@ -88,8 +94,8 @@
   font-size: 40px;
   color: rgb(53, 48, 48);
   background-color: #e0dddd;
-  margin: 50px 30px;
-  padding: 45px 0;
+  margin: 20px 10px;
+  padding: 35px 0;
   border-radius: 5px;
   transition: 0.3s;
 }
@@ -100,4 +106,21 @@
 }
 .container:hover {
   color: #ff5959;
+}
+
+.send-tk{
+  padding: 20px 0;
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn{
+  padding-top: 15px;
+  margin: 10px auto;
+
 }
