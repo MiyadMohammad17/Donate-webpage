@@ -16,12 +16,13 @@
   background-position: top;
 }
 .title-caption {
+  margin-top: 250px;
   font-family: "Inter", sans-serif;
   font-size: 65px;
   font-weight: 700;
   text-align: center;
   line-height: 79px;
-  padding-top: 250px;
+  padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
@@ -57,12 +58,11 @@
 
   /*Donate started*/
 }
-main{
+main {
   width: 70%;
   margin: 0 auto 100px;
 }
 #donate {
-
   padding-top: 130px;
   text-align: center;
 }
@@ -108,7 +108,7 @@ main{
   color: #ff5959;
 }
 
-.send-tk{
+.send-tk {
   padding: 20px 0;
   display: block;
   width: 100%;
@@ -119,8 +119,61 @@ main{
   font-size: 18px;
   font-weight: 500;
 }
-.btn{
+.btn {
   padding-top: 15px;
   margin: 10px auto;
+}
+/*plan*/
+.do-plan {
+  padding-top: 130px;
+  text-align: center;
+}
+.plan-title {
+  font-weight: 700;
+  font-size: 45px;
+  font-style: normal;
+}
 
+.plan-description {
+  padding-top: 80px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #757575;
+  padding-top: 20px;
+  text-align: center;
+  width: 50%;
+  margin: 10px auto;
+}
+.crd-contain{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.plan-cata{
+  width: 30%;
+    text-align: left;
+    padding: 70px 40px;
+    border-radius: 5px;
+}
+.icons{
+  margin: 20px 0;
+}
+.cat-title{
+  Font :25px;
+}
+.cat-desc{
+  color: #b9b1b1;
+  margin: 10px 0 20px;
+  font-weight: 500;
+}
+.card1{
+  background-color: rgb(236, 185, 166);
+
+}
+.card2{
+  background-color: rgb(56, 71, 160);
+
+}
+.card3{
+  background-color: rgb(131, 75, 184);
 }
