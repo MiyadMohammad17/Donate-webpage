@@ -177,16 +177,27 @@ main {
 .card3{
   background-color: rgb(131, 75, 184);
 }
-.blog-container1{
+/*#blog{
   display: flex;
-  justify-content:left;
+  margin: 0 auto;
+}*/
+.blog-container{
+  padding-top: 100px;
+  display: table;
+  width: 100%;
 }
 .blog-contant{
-  width: 48%;
-
+  display: table-cell;
+  width: 38%;
+  text-align: center;
+  vertical-align: middle;
 }
 .blog-img{
-  width: 48%;
+
+  display: table-cell;
+  width: 45%;
+  object-fit: cover;
+  vertical-align: middle;
 
 }
 .blog-title{
@@ -206,7 +217,9 @@ main {
     margin: 30px 0;
 
 }
-.raw-reverse{
- flex-direction : row-reverse;
- margin-top: 100px;
+.order{
+  order: 0;
+}
+.order1{
+  order: 1;
 }
