@@ -2,18 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: auto;
   font-family: "Inter", sans-serif;
 }
 .head {
-  margin-bottom: 130px;
+  height: 70vh;
+  width: 100%;
   background-repeat: no-repeat;
-  background-image: url(donate-today-main/images/donation13.jpg);
+  background-image: url(donate-today-main/images/donation9.jpg);
   background-blend-mode: multiply;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top;
-  background-blend-mode: hard-light;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: top;
 }
 .title-caption {
   font-family: "Inter", sans-serif;
@@ -47,15 +47,18 @@
   display: inline-block;
   font-size: 22px;
   margin-bottom: 100px;
+  margin-left: 50%;
   cursor: pointer;
   transition: 0.3s;
 }
-.button1:hover{
-    background-color: #e0dddd;
-    color: #ff5959 ;
+.button1:hover {
+  background-color: #e0dddd;
+  color: #ff5959;
 
+  /*Donate started*/
 }
 #donate {
+  padding-top: 130px;
   text-align: center;
 }
 .donate-today {
@@ -88,13 +91,13 @@
   margin: 50px 30px;
   padding: 45px 0;
   border-radius: 5px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .container-red {
-    color: #FF5959;
-    border: 2px solid #FF5959;
-    background-color: #FFEEEE;
+  color: #ff5959;
+  border: 2px solid #ff5959;
+  background-color: #ffeeee;
 }
-.container:hover{
-    color: #FF5959;
+.container:hover {
+  color: #ff5959;
 }
